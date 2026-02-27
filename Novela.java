@@ -9,9 +9,9 @@ public class Novela {
 
     // Construtor padrão
     public Novela() {
-        this.titulo = "Novela Desconhecida";
-        this.autor = "Autor Desconhecido";
-        this.numeroCapitulos = 0;
+        this.titulo = "Avenida Brasil";
+        this.autor = "João Emanuel Carneiro";
+        this.numeroCapitulos = 100;
     }
 
     // Construtor com parâmetros
@@ -21,9 +21,9 @@ public class Novela {
         this.numeroCapitulos = numeroCapitulos;
     }
 
-    // Método específico
+    // Método que exibe um resumo
     public void exibirResumo() {
-        System.out.println("A novela \"" + titulo + "\" escrita por " + autor +
+        System.out.println("A novela " + titulo + "escrita por " + autor +
                 " possui " + numeroCapitulos + " capítulos emocionantes!");
     }
 
