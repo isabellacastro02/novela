@@ -1,4 +1,4 @@
-package com.sgp.modelos; // Declaração do pacote
+package model; // Declaração do pacote
 
 public class Novela {
 

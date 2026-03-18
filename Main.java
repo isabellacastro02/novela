@@ -1,4 +1,4 @@
-package com.sgp.app;
+package app;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -11,8 +11,10 @@ public class Main {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        boolean executando = true;
 
+        Novela novela = new Novela("Avenida Brasil")
+        
+        boolean executando = true;
         while (executando) {
             exibirMenu();
             int opcao = Integer.parseInt(scanner.nextLine());
